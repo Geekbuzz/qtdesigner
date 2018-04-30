@@ -33,18 +33,56 @@
      <rect>
       <x>90</x>
       <y>30</y>
-      <width>841</width>
-      <height>551</height>
+      <width>931</width>
+      <height>531</height>
      </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
-      <string>Tab 1</string>
+      <string>Test Script</string>
      </attribute>
+     <widget class="QTreeWidget" name="treeWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>921</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Line Number</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>SET/GET</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Assignment Label/Label to be evaluated</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Parmeter/Raw value</string>
+       </property>
+      </column>
+     </widget>
     </widget>
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
-      <string>Tab 2</string>
+      <string>File Browser</string>
      </attribute>
     </widget>
    </widget>
@@ -65,7 +103,7 @@
     </size>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tab">
     <attribute name="title">
@@ -87,43 +125,8 @@
      </column>
      <item>
       <property name="text">
-       <string>New Item</string>
+       <string>I2C</string>
       </property>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-       <item>
-        <property name="text">
-         <string>New Subitem</string>
-        </property>
-       </item>
-      </item>
-     </item>
-     <item>
-      <property name="text">
-       <string>New Item</string>
-      </property>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-      </item>
       <item>
        <property name="text">
         <string>New Subitem</string>
@@ -132,28 +135,18 @@
      </item>
      <item>
       <property name="text">
-       <string>New Item</string>
+       <string>RS232</string>
       </property>
       <item>
        <property name="text">
         <string>New Subitem</string>
        </property>
       </item>
-      <item>
-       <property name="text">
-        <string>New Subitem</string>
-       </property>
-       <item>
-        <property name="text">
-         <string>New Subitem</string>
-        </property>
-        <item>
-         <property name="text">
-          <string>New Subitem</string>
-         </property>
-        </item>
-       </item>
-      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>CAN</string>
+      </property>
       <item>
        <property name="text">
         <string>New Subitem</string>
@@ -366,7 +359,7 @@
     <enum>QTabWidget::Triangular</enum>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tab_6">
     <attribute name="title">
@@ -389,7 +382,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="tab_8">
     <attribute name="title">
