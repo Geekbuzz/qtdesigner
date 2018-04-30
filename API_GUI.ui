@@ -38,7 +38,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
@@ -55,12 +55,14 @@
       </property>
       <column>
        <property name="text">
-        <string>1</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
         <string>Line Number</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
        </property>
       </column>
       <column>
@@ -78,6 +80,19 @@
         <string>Parmeter/Raw value</string>
        </property>
       </column>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>7</x>
+        <y>140</y>
+        <width>521</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_5">
